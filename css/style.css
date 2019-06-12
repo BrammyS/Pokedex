@@ -1,0 +1,44 @@
+
+h1{
+    text-align: center;
+}
+
+.logo{
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-top: 25px;
+}
+
+.header{
+    float: left;
+}
+
+.pokemonDetails{
+    margin: 25px;
+}
+
+.pokemonImg{
+    height: 150px;
+    width: 150px;
+}
+
+.pokemon{
+    float: left;
+    margin: 5px;
+}
+
+.pokemon h5{
+    text-align: center;
+}
+
+.pageButtons button{
+    width: 140px;
+    margin: 10px;
+}
+
+.pokemonButtons button{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}

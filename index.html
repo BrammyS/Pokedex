@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon api</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<div class="container flex-row">
+    <div class="d-flex flex-row justify-content-center">
+        <img class="logo" src="img/logo.png">
+    </div>
+    <div class="pokemonDetails justify-content-center flex-row">
+        <div class="pokemonButtons flex-row d-flex justify-content-center">
+            <button class="btn btn-outline-dark" id="PreviousPokemon"><</button>
+            <h1 class="flex-row" id="selectedPokemonName"></h1>
+            <button class="btn btn-outline-dark" id="NextPokemon">></button>
+        </div>
+        <div  class="flex-row d-flex justify-content-center">
+            <img class="pokemonImg" id="selectedPokemonImg">
+        </div>
+        <div  class="flex-row d-flex justify-content-center">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Type</th>
+                    <th scope="col">Abilities</th>
+                    <th scope="col">Base stats</th>
+                </tr>
+                </thead>
+                <tbody id="detailContent">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="pokemons justify-content-center flex-row">
+    </div>
+    <div class="pageButtons d-flex flex-row justify-content-center">
+        <button class="btn btn-outline-dark" id="PreviousButton">Previous</button>
+        <button class="btn btn-outline-dark" id="NextButton">Next</button>
+    </div>
+</div>
+</body>
+</html>
