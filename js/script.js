@@ -99,5 +99,5 @@ function appendPokeDetail(data) {
         "   <td>" + stats + "</td>" +
         "</tr>"
     );
-
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
 }
