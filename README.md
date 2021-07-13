@@ -1,5 +1,5 @@
 # Pokedex
 Simple Javascript school project.  
-You can view the website [here](https://pokeapi.bramesendam.dev/).
+You can view the website [here](https://pokedex.bramesendam.dev/).
 
 ![image](img/Preview.png "Preview")
